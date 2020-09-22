@@ -10,3 +10,20 @@
 .Header-logo {
   width: 50px;
 }
+
+.main-nav {
+  margin-left: auto;
+  display: flex;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+  padding: 15px;
+}
+
+.main-nav a.active {
+  background-color: #ccc;
+  color: #000;
+}
